@@ -1,0 +1,1033 @@
+*{
+    font-family: poppins;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+.btn-1{
+    background-color: transparent;
+    border: 1px solid #fff;
+    border-radius: 35px;
+    color: #fff;
+    transition: all 0.5s ease-in-out;
+
+}
+.padding{
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.btn-1:hover{
+    background-color: #000;
+    border: 1px solid #000;
+    color: #fff;
+    transition: all 0.5s ease-in-out;
+}
+.nav-link{
+    color: #fff;
+    font-weight: bold;
+}
+.navbar .nav-item .nav-link:hover{
+    color: #fff;
+}
+.navbar .flex-column a:nth-child(1){
+    color: #fff;
+}
+.navbar{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: transparent;
+    z-index: 10;
+}
+/* banner css =====================  */
+.banner{
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(rgba(189,30,45,0.5),rgba(189,30,45,1)),url(../images/main-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+}
+.banner-form{
+    max-width:500px;
+    aspect-ratio: 1/0.5;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 20px;
+}
+.banner-form p{
+    color: #bd1e2d;
+}
+.banner-form .form-inline{
+    display: flex;
+}
+.btn-2{
+    background-color: #bd1e2d;
+    border: 1px solid #bd1e2d;
+    border-radius: 20px;
+    color: #fff;
+    transition: all 0.5s ease-in-out;
+
+}
+.btn-2:hover{
+    color: #bd1e2d;
+    background-color: transparent;
+    border: 1px solid #bd1e2d;
+    transition: all 0.5s ease-in-out;
+}
+.form-inline input{
+    background: none;
+    outline: none;
+    border: none;
+    border: 1px solid #bd1e2d;
+    border-radius: 20px;
+    color: #bd1e2d;
+}
+.form-inline input::placeholder{
+    color: #bd1e2d;
+}
+.one,.two,.three{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #fff;
+    font-weight: bolder;
+    color: #fff;
+}
+.one{
+    animation: dots 1s 0.33s infinite alternate ;
+
+}
+.two{
+    animation: dots 1s  0.66s infinite alternate ;
+    
+}
+.three{
+    animation: dots 1s 0.99s infinite alternate ;
+    
+}
+
+@keyframes dots {
+    0%{
+        transform: scale(1);
+
+    }100%{
+        transform: scale(1.5);
+        box-shadow: 0 0 20px #fff;
+    }
+}
+
+/* #bd1e2d  */
+/* banner css =====================  */
+/* section css =====================  */
+.bg-color{
+    background-color: #bd1e2d;
+}
+.slider1 .swiper-slide .img1{
+    background: url(../images/LD_Initials_1.png);
+}
+.slider1 .swiper-slide .img2{
+    background: url(../images/LD_Initials_2.png);
+}
+.slider1 .swiper-slide .img3{
+    background: url(../images/LD_Initials_3.png);
+}
+.slider1 .swiper-slide .img4{
+    background: url(../images/LD_Initials_4.png);
+}
+.slider1 .swiper-slide .img5{
+    background: url(../images/m1.png);
+}
+.slider2 .swiper-slide .img1{
+    background: url(../images/m3.png);
+}
+.slider2 .swiper-slide .img2{
+    background: url(../images/m5.png);
+}
+.slider2 .swiper-slide .img3{
+    background: url(../images/m7.png);
+}
+.slider2 .swiper-slide .img4{
+    background: url(../images/m9.png);
+}
+.slider2 .swiper-slide .img5{
+    background: url(../images/m11.png);
+}
+
+.slider3 .swiper-slide .img1{
+    background: url(../images/LD_WordMark_1.png);
+}
+.slider3 .swiper-slide .img2{
+    background: url(../images/LD_WordMark_2.png);
+}
+.slider3 .swiper-slide .img3{
+    background: url(../images/LD_WordMark_4.png);
+}
+.slider3 .swiper-slide .img4{
+    background: url(../images/LD_WordMark_6.png);
+}
+.slider3 .swiper-slide .img5{
+    background: url(../images/LD_WordMark_11.png);
+}
+.slider3 .swiper-slide .img6{
+    background: url(../images/LD_WordMark_12.png);
+}
+
+
+
+.slider1 .swiper-slide .img:hover .overlay1{
+   transform: scale(1);
+    display: flex;
+    transition: all 0.5s ease-in-out;
+}
+.slider2 .swiper-slide .img:hover .overlay1{
+    transform: scale(1);
+     display: flex;
+     transition: all 0.5s ease-in-out;
+ }
+ .slider3 .swiper-slide .img:hover .overlay1{
+    transform: scale(1);
+     display: flex;
+     transition: all 0.5s ease-in-out;
+ }
+.slider1 .swiper-slide .img,.slider2 .swiper-slide .img,.slider3 .swiper-slide .img{
+    max-width: 350px;
+    aspect-ratio: 1/0.8;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+}
+
+.overlay1{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* display: none; */
+    transform: scale(0);
+    transition: all 0.5s ease-in-out;
+
+}
+.overlay1 i{
+    font-size: 28px;
+    color: #fff;
+}
+
+.process li{
+    margin-top: 15px;
+    list-style: none;
+}
+.process{
+    padding: 0;
+}
+.violet{
+    background-color: rgb(96, 6, 180);
+}
+.swiper-pagination .swiper-pagination-bullet{
+    background-color: #fff;
+}
+.btn-white{
+    background-color: #fff;
+    border-radius: 20px;
+    color: rgb(10, 79, 158);
+    color: #bd1e2d;
+    transition: all 0.5s ease-in-out;
+}
+.btn-white:hover{
+    color: #fff;
+    border: 1px solid #fff;
+    transition: all 0.5s ease-in-out;
+
+}
+.package{
+    border-radius: 20px;
+    padding: 0px 15px;
+    border: 2px solid #fff;
+}
+.tag{
+    width: 64px;
+    height: 105px;
+    background: url(../images/bookmark.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+}
+.package ul li{
+    margin-top: 10px;
+}
+.package ul{
+    height: 350px;
+    overflow-y: auto;
+}
+.package ul::-webkit-scrollbar{
+    width: 5px;
+    border-radius: 10px;
+    background-color: rgba(255,255,255,0.2);
+}
+.package ul::-webkit-scrollbar-thumb{
+    background-color: #fff;
+    border-radius: 10px;
+}
+.combo{
+    border-radius: 20px;
+    border: 2px solid #fff;
+    padding: 0px 25px;
+}
+.combo ul li{
+    margin-top: 5px;
+}
+.dark-blue{
+    background-color: rgb(11, 11, 88);
+}
+/* section css =====================  */
+
+
+/* section start =====================  */
+.blue{
+    background-color: rgb(10, 79, 158);
+}
+.footer-heading{
+    color: #fff;
+    position: relative;
+}
+.footer-heading::after{
+    content: "";
+    width: 100px;
+    height: 2px;
+    background-color: #fff;
+    position: absolute;
+    left: 0;
+    top: 110%;
+}
+footer ul li{
+    list-style: none;
+    transition: all 0.5s ease-in-out;
+
+}
+footer ul{
+    padding: 0;
+}
+footer ul li a:hover{
+    color: #bd1e2d;
+    transition: all 0.5s ease-in-out;
+}
+.footer-icons a{
+    color: #fff;
+    transition: all 0.5s ease-in-out;
+    margin: 10px;
+    font-size: 20px;
+}
+.footer-icons{
+    border-bottom: 1px solid gray;
+    padding-bottom: 10px;
+}
+.footer-icons a:hover{
+    color: #bd1e2d;
+    transition: all 0.5s ease-in-out;
+}
+/* section css =====================  */
+
+@media screen and (max-width:992px) {
+    .footer-heading::after{
+        left: 35%;
+    }
+}
+@media screen and (max-width:768px) {
+    .footer-heading::after{
+        left: 40%;
+    }
+    .services .swiper .swiper-wrapper .swipe-slide{
+        font-size: 14px;
+    }
+}
+
+
+/* logo design page...........................  */
+    .logo-banner{
+        width: 100%;
+        min-height: 100vh;
+        background:linear-gradient(rgba(189,30,45,0.5),rgba(189,30,45,1)),url(../images/web-banner-min.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        object-fit: cover;
+    }
+
+    .logo-banner ul{
+        padding: 0;
+    }
+    .logo-banner ul li{
+        list-style: none;
+        margin-top: 10px;
+    }
+    .logo-banner ul li a i{
+        margin: 10px;
+        
+    }
+    .logo-banner form{
+        min-height: 500px;
+        background-color: #fff;
+        /* padding-top: 50px; */
+        padding: 50px  40px;
+        border-radius: 20px;
+    }
+    .logo-banner h5{
+        color: #bd1e2d;
+    }
+    .logo-design ul li {
+        list-style: none;
+    }
+    .logo-design ul{
+        padding: 0px;
+    }
+    .logo-design ul li span{
+        margin: 10px;
+    }
+    .logo-design ul{
+        margin: 0px 20px;
+    }
+    
+    
+    .accordion-flush .accordion-item .accordion-button{
+        background-color: rgb(10, 79, 158);
+        outline: none;
+        border: none;
+        box-shadow: none;
+        border-bottom: none;
+        border: 1px solid #fff;
+        color: #fff;
+    }
+    .accordion-flush .accordion-item{
+        border-radius: 10px;
+        border: none;
+        background-color: transparent;
+        color: #fff;
+    }
+    .accordion-flush .accordion-item .accordion-button, .accordion-flush .accordion-item .accordion-button.collapsed{
+        border-radius: 10px;
+    }
+    .logo-design-form input{
+        background: none;
+        border: none;
+        outline: none;
+        color: #fff;
+        border: 2px solid #fff;
+        border-radius: 30px;
+        padding: 15px;
+    }
+    .logo-design-form input::placeholder{
+        color: #fff;
+    }
+    .logo-design-form input:hover{
+        background-color: none;
+    }
+/* logo design page...........................  */
+
+/* Web design page...........................  */
+.potals .btn-white{
+    color: #000;
+}
+.choice ul li{
+list-style: none;
+margin-top: 10px;
+}
+.choice ul{
+    padding: 0;
+}
+.choice ul li span{
+    margin: 5px;
+}
+.web1{
+    background: url(../images/webdesign/WebDesign-1-min.png);
+}
+.web2{
+    background: url(../images/webdesign/WebDesign-2-min.png);
+}
+.web3{
+    background: url(../images/webdesign/WebDesign-4-min.png);
+}
+.web4{
+    background: url(../images/webdesign/WebDesign-5-min.png);
+}
+.web5{
+    background: url(../images/webdesign/WebDesign-7-min.png);
+}
+.web6{
+    background: url(../images/webdesign/WebDesign-8-min.png);
+}
+.web7{
+    background: url(../images/webdesign/WebDesign-9-min.png);
+}
+.web8{
+    background: url(../images/webdesign/WebDesign-10-min.png);
+}
+.web9{
+    background: url(../images/webdesign/WebDesign-13-min.png);
+}
+.web:hover .overlay1{
+    transform: scale(1);
+    display: flex;
+    transition: all 0.5s ease-in-out;
+}
+
+/* .web1:hover,.web2:hover,.web3:hover,.web4:hover,.web5:hover,.web6:hover,.web7:hover,.web8:hover,.web9:hover{
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+} */
+.web{
+    max-width:100%;
+    aspect-ratio: 1/1.5;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+}
+
+/* Web design page...........................  */
+
+
+/* Brand design page...........................  */
+    .brand-banner{
+        width: 100%;
+        min-height: 100vh;
+        background: linear-gradient(rgba(189,30,45,0.5),rgba(189,30,45,1)), url(../images/brand/brand-banner.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        object-fit: cover;
+    }
+    .brand-img1{
+        background: url(../images/brand/brand-1.png);
+    }
+    .brand-img2{
+        background: url(../images/brand/brand-2.png);
+    }
+    .brand-img3{
+        background: url(../images/brand/brand-3.png);
+    }
+    .brand-img4{
+        background: url(../images/brand/brand-4.png);
+    }
+    .brand-img5{
+        background: url(../images/brand/brand-5.png);
+    }
+    .brand-img6{
+        background: url(../images/brand/brand-6.png);
+    }
+    .brand-img7{
+        background: url(../images/brand/brand-7.png);
+    }
+    .brand-img8{
+        background: url(../images/brand/brand-8.png);
+    }
+    .brand-img9{
+        background: url(../images/brand/brand-9.png);
+    }
+    .brand-img10{
+        background: url(../images/brand/brand-10.png);
+    }
+    .brand-img:hover .overlay1{
+        transform: scale(1);
+        transition: all 0.5s ease-in-out;
+    }
+    .brand-img{
+        max-width:100%;
+        aspect-ratio: 1/0.7;
+        background-repeat: no-repeat;
+        background-size: cover;
+        object-fit: cover;
+    }
+    .ul li{
+        list-style: none;
+    }
+    .package ul{
+        text-align: left;
+    }
+/* Brand design page...........................  */
+
+
+/* package design page...........................  */
+
+.package-banner{
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(rgba(189,30,45,0.5),rgba(189,30,45,1)), url(../images/packages/about-banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-position: center;
+    object-fit: cover;
+}
+
+
+/* package design page...........................  */
+
+/* insight design page...........................  */
+.purecounter{
+    font-family:arial black;
+    font-weight: bolder;    
+    font-size: 40px ;    
+}
+
+/* insight design page...........................  */
+
+
+/* Blog design page...........................  */
+
+.gradient{
+    width: 100%;
+    min-height:100vh;
+    background: linear-gradient(rgba(189,30,45,0.5),rgba(189,30,45,1));
+}
+.gradient .ul li{
+    display: inline-block;
+    margin: 5px ;
+
+}
+.card{
+    border: 1px solid #bd1e2d;
+    transition: all 0.5s ease-in-out;
+
+}
+.card:hover{
+    border: 1px solid #fff;
+    box-shadow: 0 0 15px rgba(255,255,255,0.5);
+    transition: all 0.5s ease-in-out;
+
+}
+.best{
+    height: 300px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+.blog{
+    border: 1px solid #bd1e2d;
+    padding: 10px;
+    border-radius: 20px;
+    transition: all 0.5s ease-in-out;
+
+}
+.blog:hover{
+    border: 1px solid #fff;
+
+    box-shadow: 0 0 15px rgba(255,255,255,0.8);
+    transition: all 0.5s ease-in-out;
+
+}
+.overflow{
+    height: 100vh;
+    overflow-y: auto;
+}
+
+.overflow::-webkit-scrollbar{
+    width: 5px;
+    background-color: #bd1e2d;
+}
+.category{
+    border-bottom: 1px solid #fff;
+}
+
+/* Blog design page...........................  */
+
+
+
+.pictures div{
+    width: 100%;
+}
+.pictures .trans{
+    max-width: 200px;
+    aspect-ratio: 1/1;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    transition: all 0.5s ease-in-out;
+}
+.trans-img{
+    background: linear-gradient(rgba(189,30,45,0.5),rgba(189,30,45,0.5)), url(../images/portfolio/LD_Initials_10_39_11zon.png);;
+    
+}
+.trans-img1{
+    background: linear-gradient(rgba(189,30,45,0.5),rgba(189,30,45,0.5)), url(../images/portfolio//LD_Initials_14_43_11zon.png); 
+}
+.trans-img2{
+    background: linear-gradient(rgba(189,30,45,0.5),rgba(189,30,45,0.5)), url(../images/portfolio/LD_Initials_13_42_11zon.png); 
+}
+.trans-img3{
+    background: linear-gradient(rgba(189,30,45,0.5),rgba(189,30,45,0.5)), url(../images/LD_Initials_4.png); 
+}
+.trans-img4{
+    background: linear-gradient(rgba(189,30,45,0.5),rgba(189,30,45,0.5)), url(../images/LD_Initials_5.png); 
+}
+.trans-img5{
+    background: linear-gradient(rgba(189,30,45,0.5),rgba(189,30,45,0.5)), url(../images/LD_Initials_6.png); 
+}
+.trans-img6{
+    background: linear-gradient(rgba(189,30,45,0.5),rgba(189,30,45,0.5)), url(../images/LD_WordMark_1.png); 
+}
+
+.trans-img:nth-child(2){
+    background: linear-gradient(rgba(189,30,45,0.5),rgba(189,30,45,1)), url(../images/portfolio/LD_Initials_10_39_11zon.png);
+    
+}
+.trans-img1:nth-child(1){
+    background: linear-gradient(rgba(189,30,45,0.5),rgba(189,30,45,1)), url(../images/portfolio/LD_Initials_11_40_11zon.png); 
+}
+.trans-img2:nth-child(2){
+    background: linear-gradient(rgba(189,30,45,0.5),rgba(189,30,45,1)), url(../images/portfolio/LD_Initials_13_42_11zon.png); 
+}
+.trans-img3:nth-child(2){
+    background: linear-gradient(rgba(189,30,45,0.5),rgba(189,30,45,1)), url(../images/LD_Initials_4.png); 
+}
+.trans-img4:nth-child(2){
+    background: linear-gradient(rgba(189,30,45,0.5),rgba(189,30,45,1)), url(../images/LD_Initials_5.png); 
+}
+.trans-img5:nth-child(2){
+    background: linear-gradient(rgba(189,30,45,0.5),rgba(189,30,45,1)), url(../images/LD_Initials_6.png); 
+}
+.trans-img6:nth-child(2){
+    background: linear-gradient(rgba(189,30,45,0.5),rgba(189,30,45,1)), url(../images/LD_WordMark_1.png); 
+}
+
+.trans-img7{
+    background: linear-gradient(rgba(189,30,45,0.5),rgba(189,30,45,1)), url(../images/LD_WordMark_11.png);
+    
+}
+.trans-img8{
+    background: linear-gradient(rgba(189,30,45,0.5),rgba(189,30,45,1)), url(../images/LD_WordMark_12.png); 
+}
+.trans-img9{
+    background: linear-gradient(rgba(189,30,45,0.5),rgba(189,30,45,1)), url(../images/LD_WordMark_2.png); 
+}
+.trans-img10{
+    background: linear-gradient(rgba(189,30,45,0.5),rgba(189,30,45,1)), url(../images/LD_WordMark_4.png); 
+}
+.trans-img11{
+    background: linear-gradient(rgba(189,30,45,0.5),rgba(189,30,45,1)), url(../images/LD_WordMark_6.png); 
+}
+.trans-img12{
+    background: linear-gradient(rgba(189,30,45,0.5),rgba(189,30,45,1)), url(../images/LD_Initials_1.png); 
+}
+.trans-img13{
+    background: linear-gradient(rgba(189,30,45,0.5),rgba(189,30,45,1)), url(../images/LD_Initials_2.png   ); 
+}
+
+.parent{
+    width: 100%;
+    display: flex;
+}
+
+.trans-img:hover{
+    background: url(../images/portfolio/LD_Initials_10_39_11zon.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    transform: scale(1.2);
+    transition: all 0.5s ease-in-out;
+}
+.trans-img1:hover{
+    background: url(../images/portfolio/LD_Initials_14_43_11zon.png);; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    transform: scale(1.2);
+    transition: all 0.5s ease-in-out;
+}
+.trans-img2:hover{
+    background: url(../images/portfolio/LD_Initials_13_42_11zon.png); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    transform: scale(1.2);
+    transition: all 0.5s ease-in-out;
+}
+.trans-img3:hover{
+    background: url(../images/LD_Initials_4.png); 
+     background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    transform: scale(1.2);
+    transition: all 0.5s ease-in-out;
+}
+.trans-img4:hover{
+    background: url(../images/LD_Initials_5.png); 
+     background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    transform: scale(1.2);
+    transition: all 0.5s ease-in-out;
+}
+.trans-img5:hover{
+    background: url(../images/LD_Initials_6.png); 
+     background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    transform: scale(1.2);
+    transition: all 0.5s ease-in-out;
+}
+.trans-img6:hover{
+    background: url(../images/LD_WordMark_1.png); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    transform: scale(1.2);
+    transition: all 0.5s ease-in-out;
+}
+
+.trans-img:nth-child(2){
+    background: linear-gradient(rgba(189,30,45,0.5),rgba(189,30,45,1)), url(../images/portfolio/LD_Initials_10_39_11zon.png);
+    
+}
+/* .trans-img1:nth-child(2){
+    background: linear-gradient(rgba(189,30,45,0.5),rgba(189,30,45,1)), url(../images/portfolio/m11_75_11zon.png); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+} */
+.trans-img2:nth-child(2){
+    background: linear-gradient(rgba(189,30,45,0.5),rgba(189,30,45,1)), url(../images/portfolio/LD_Initials_13_42_11zon.png); 
+}
+.trans-img3:nth-child(2){
+    background: linear-gradient(rgba(189,30,45,0.5),rgba(189,30,45,1)), url(../images/LD_Initials_4.png); 
+}
+.trans-img4:nth-child(2){
+    background: linear-gradient(rgba(189,30,45,0.5),rgba(189,30,45,1)), url(../images/LD_Initials_5.png); 
+}
+.trans-img5:nth-child(2){
+    background: linear-gradient(rgba(189,30,45,0.5),rgba(189,30,45,1)), url(../images/LD_Initials_6.png); 
+}
+.trans-img6:nth-child(2){
+    background: linear-gradient(rgba(189,30,45,0.5),rgba(189,30,45,1)), url(../images/LD_WordMark_1.png); 
+}
+
+.trans-img7{
+    background: linear-gradient(rgba(189,30,45,0.5),rgba(189,30,45,1)), url(../images/LD_WordMark_11.png);
+    
+}
+.trans-img8{
+    background: linear-gradient(rgba(189,30,45,0.5),rgba(189,30,45,1)), url(../images/LD_WordMark_12.png); 
+}
+.trans-img9{
+    background: linear-gradient(rgba(189,30,45,0.5),rgba(189,30,45,1)), url(../images/LD_WordMark_2.png); 
+}
+.trans-img10{
+    background: linear-gradient(rgba(189,30,45,0.5),rgba(189,30,45,1)), url(../images/LD_WordMark_4.png); 
+}
+.trans-img11{
+    background: linear-gradient(rgba(189,30,45,0.5),rgba(189,30,45,1)), url(../images/LD_WordMark_6.png); 
+}
+.trans-img12{
+    background: linear-gradient(rgba(189,30,45,0.5),rgba(189,30,45,1)), url(../images/LD_Initials_1.png); 
+}
+.trans-img13{
+    background: linear-gradient(rgba(189,30,45,0.5),rgba(189,30,45,1)), url(../images/LD_Initials_2.png   ); 
+}
+
+
+.trans-img7:hover{
+    background: url(../images/LD_WordMark_11.png);
+     background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    transform: scale(1.2);
+    transition: all 0.5s ease-in-out;
+    
+}
+.trans-img8:hover{
+    background: url(../images/LD_WordMark_12.png); 
+     background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    transform: scale(1.2);
+    transition: all 0.5s ease-in-out;
+}
+.trans-img9:hover{
+    background: url(../images/LD_WordMark_2.png); 
+     background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    transform: scale(1.2);
+    transition: all 0.5s ease-in-out;
+}
+.trans-img10:hover{
+    background: url(../images/LD_WordMark_4.png); 
+     background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    transform: scale(1.2);
+    transition: all 0.5s ease-in-out;
+}
+.trans-img11:hover{
+    background: url(../images/LD_WordMark_6.png); 
+     background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    transform: scale(1.2);
+    transition: all 0.5s ease-in-out;
+}
+.trans-img12:hover{
+    background: url(../images/LD_Initials_1.png); 
+     background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    transform: scale(1.2);
+    transition: all 0.5s ease-in-out;
+}
+.trans-img13:hover{
+    background: url(../images/LD_Initials_2.png   ); 
+     background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    transform: scale(1.2);
+    transition: all 0.5s ease-in-out;
+}
+
+.banner-heading{
+    position: absolute;
+    top: 30%;
+    right: 10%;
+    padding: 0px 50px;
+    z-index: 2;
+}
+@media screen and (max-width:1200px) {
+    .banner-heading{
+        right: 15%;
+    }
+}
+@media screen and (max-width:992px) {
+    .banner-heading{
+        right: 20%;
+    }
+}
+@media screen and (max-width:768px) {
+    .banner-heading{
+        left: 15%;
+    }
+}
+@media screen and (max-width:650px) {
+    .banner-heading{
+        top: 20%;
+        left: 0%;
+    }
+}
+.gradient2{
+    width: 100%;
+    min-height:100vh;
+    background: linear-gradient(rgba(189,30,45,1),rgba(189,30,45,0.5));
+}
+@media screen and (max-width:500px) {
+    .portfolio{
+        padding-top: 200px;
+    }
+}
+@media screen and (max-width:380px) {
+    .portfolio{
+        padding-top: 350px;
+    }
+}
+.popup-overlay{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 1000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: none;
+    overflow-y: auto;
+}
+.popup{
+    max-width: 800px;
+    min-height: 120vh;
+    border-radius: 20px;
+}
+.popup-img{
+    width: 40%;
+}
+.popup-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+}
+.popup-form{
+    width: 60%;
+    padding: 10px;
+    background-color: #fff;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.popup-overlay::-webkit-scrollbar{
+    width: 0px;
+    background-color: none;
+    
+}
+
+.popup-form form input,.popup-form form textarea{
+    width: 80%;
+    background: none;
+    outline: none;border: none;
+    border: 2px solid #bd1e2d;
+    padding: 10px;
+    border-radius: 30px;
+    color: #bd1e2d;
+}
+.popup-form form input::placeholder{
+    color: #bd1e2d;
+}
+.popup-form form textarea::placeholder{
+    color: #bd1e2d;
+}
+#close{
+    cursor: pointer;
+}
+@media screen and (max-width:768px){
+    .popup-img{
+        width: 100%;
+        height: 400px;
+        
+    }
+    .popup-img img{
+        width: 100%;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        border-bottom-left-radius: 0px;
+
+    }
+    .popup-form{
+        width: 100%;  
+        min-height:500px ; 
+        border-top-right-radius: 0px;
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+    }
+
+}
+.navbar-toggler{
+    outline: none;
+    border: none;
+}
+
+
+@media screen and (max-width:992px){
+.navbar-nav{
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+.card{
+    max-width: 400px;
+    aspect-ratio: 1/1.7;
+}
+.navbar .nav-item .nav-link{
+    color: #000;
+}
+}
+
+@media screen and (max-width:400px){
+    .footer-heading::after{
+        left: 35%;
+    }
+}
