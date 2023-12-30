@@ -1,0 +1,614 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <title>Logo Design Valley</title>
+    <style>
+      body{
+        overflow-x: hidden;
+      }
+    </style>
+  </head>
+  <body>
+
+        <!-- popup............................  -->
+        <div class="popup-overlay py-3">
+          <div class="container">
+            <div class="popup mx-auto d-flex flex-md-row flex-column ">
+              <div class="popup-img">
+                <img src="images/popup.png" alt="">
+              </div>
+              <div class="popup-form">
+                  <div class="text-end p-2">
+                      <a class="fs-4" style="color: #bd1e2d;" id="close"><i class="fa-solid fa-xmark"></i></a>
+                  </div>
+                  <div class="text-md-start text-center">
+                    <h3 class="mt-3"><span class="fw-bold" style="color: #bd1e2d;">Sign Up Now </span>To Avail <span class="fw-bold" style="color: #bd1e2d;">50%</span> Discount</h3>
+                    <p class="text-secondary mt-3">
+                      Fill out the form below with your details to start conversation with our expert
+                    </p>
+                  </div>
+                  <form action="">
+                    <div class="form-group text-center mt-4">
+                      <input type="text" placeholder="Name">
+                    </div>
+                    <div class="form-group text-center mt-4">
+                      <input type="email" placeholder="Email">
+                    </div>
+                    <div class="form-group text-center mt-4">
+                      <input type="phone" placeholder="Phone No">
+                    </div>
+                    <div class="form-group text-center mt-4">
+                      <input type="text" placeholder="Tell Us about Your Budget">
+                    </div>
+                    <div class="form-group text-center mt-4">
+                      <textarea name="" id="" cols="40" rows="4" class="" placeholder="Your Message"></textarea>
+                    </div>
+                    <div class="form-group text-center mt-4">
+                      <a href="#" class="btn btn-2 fw-bold px-4 py-2">Let's Make a Deal</a>
+                    </div>
+                  </form>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- popup............................  -->
+    
+    
+    <!-- navigation start.................................  -->
+
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <div class="container">
+        <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="" class="img-fluid" width="150px"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 mx-auto">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="logo.html">Logo Design</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Website Design
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="website.html">CMS Development</a></li>
+                <li><a class="dropdown-item" href="website.html">Custom E-commerce Development</a></li>
+                <li><a class="dropdown-item" href="website.html">Hire a Designer </a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="branding.html">Branding</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="packages.html">Packages</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Location
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="location.html">Logo Design Tellas</a></li>
+                <li><a class="dropdown-item" href="location.html">Logo Design Texas</a></li>
+              </ul>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Insight
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="Insight.html">About</a></li>
+                <li><a class="dropdown-item" href="" id="contact">Contact Us</a></li>
+                <li><a class="dropdown-item" href="blog.html">Blog</a></li>
+              </ul>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="portfolio.html">Portfolio</a>
+            </li>
+
+          </ul>
+          <div class="d-flex flex-column d-lg-flex d-none">
+            <div>
+              <a href=""><i class="fa-solid fa-phone"></i> +1-234-222-5550</a>
+            </div>
+            <div class="mt-2">
+              <a href="" id="contact" class="btn-bg btn btn-1 px-3 py-2">Get In Touch</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+  <!-- navigation ends.................................  -->
+
+
+    <div class="container banner-heading text-center text-white" style="padding-top: 100px;">
+        <h1 class="fw-bold">
+            Inspiring Through a Diverse 
+        </h1>
+        <h1 class="fw-bold">Online Portfolio</h1>
+        <p class="mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo possimus quasi magnam tempore incidunt similique officia nihil saepe tempora pariatur! Vitae fugiat odit dignissimos impedit ullam atque nulla necessitatibus ex. </p>
+    </div>
+
+        <div class="pictures p-0 m-0">
+        <div class="parent">
+            <div class="trans-img trans">
+                    
+            </div>
+            <div class="trans-img1 trans">
+
+            </div>
+            <div class="trans-img2 trans">
+                
+            </div>
+            <div class="trans-img3 trans">
+                
+            </div>
+            <div class="trans-img4 trans">
+                
+            </div>
+            <div class="trans-img5 trans">
+                
+            </div>
+            <div class="trans-img6 trans">
+                
+            </div>
+        </div>
+
+        <div class="parent">
+            <div class="trans-img7 trans">
+                    
+            </div>
+            <div class="trans-img8 trans">
+
+            </div>
+            <div class="trans-img9 trans">
+                
+            </div>
+            <div class="trans-img10 trans">
+                
+            </div>
+            <div class="trans-img11 trans">
+                
+            </div>
+            <div class="trans-img12 trans">
+                
+            </div>
+            <div class="trans-img13 trans">
+                
+            </div>
+        </div>
+
+        <div class="parent">
+            <div class="trans-img trans">
+                    
+            </div>
+            <div class="trans-img1 trans">
+
+            </div>
+            <div class="trans-img2 trans">
+                
+            </div>
+            <div class="trans-img3 trans">
+                
+            </div>
+            <div class="trans-img4 trans">
+                
+            </div>
+            <div class="trans-img5 trans">
+                
+            </div>
+            <div class="trans-img6 trans">
+                
+            </div>
+        </div>
+
+        <div class="parent">
+            <div class="trans-img7 trans">
+                    
+            </div>
+            <div class="trans-img8 trans">
+
+            </div>
+            <div class="trans-img9 trans">
+                
+            </div>
+            <div class="trans-img10 trans">
+                
+            </div>
+            <div class="trans-img11 trans">
+                
+            </div>
+            <div class="trans-img12 trans">
+                
+            </div>
+            <div class="trans-img13 trans">
+                
+            </div>
+        </div>
+            
+        
+        </div>
+        <!-- section....................................  -->
+            <section class="portfolio gradient2 padding pb-0">
+              <div class="container">
+
+                <h3 class="fw-bold text-white text-center mt-5">
+                  Our Distinct and Diverse Portfolio Reflects the Value We Add to Your Brand
+                </h3>
+                <div class="row mt-4 justify-content-md-center">
+                  <div class="col-md-3 col-sm-6 text-center">
+                    <a href="" class="fw-bold btn btn-white px-4 py-2">Logo Design</a>
+                  </div>
+                  <div class="col-md-3 col-sm-6 text-center my-auto mt-sm-0 mt-4">
+                    <a href="" class="fw-bold">Web Design</a>
+                  </div>
+                  <div class="col-md-3 col-sm-12 text-center my-auto mt-md-0 mt-4">
+                    <a href="" class="fw-bold">Branding</a>
+                  </div>
+                </div>
+
+                <div class="row mt-5 justify-content-md-center">
+                  <div class="col-md-3 col-sm-6 text-center">
+                    <a href="" class="fw-bold btn btn-white px-4 py-2">All</a>
+                  </div>
+                  <div class="col-md-3 col-sm-6 text-center my-auto mt-sm-auto mt-4">
+                    <a href="" class="fw-bold">Initials</a>
+                  </div>
+                  <div class="col-md-3 col-sm-6 text-center my-auto mt-md-auto mt-4">
+                    <a href="" class="fw-bold">Mascot Logo</a>
+                  </div>
+                  <div class="col-md-3 col-sm-6 text-center my-auto mt-md-auto mt-4">
+                    <a href="" class="fw-bold">WordMark</a>
+                  </div>
+                </div>
+
+                
+              </div>
+              <!-- container close.................  -->
+
+              <div class="slider1">
+                <div class="swiper firstswiper">
+                  <div class="swiper-wrapper pt-5">
+                    
+                      <div class="swiper-slide">
+                        <div class="img img1">
+                          <div class="overlay1">
+                            <i class="fa-solid fa-circle-plus"></i>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="img img2">
+                          <div class="overlay1">
+                            <i class="fa-solid fa-circle-plus"></i>
+                          </div>
+        
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="img img3">
+                          <div class="overlay1">
+                            <i class="fa-solid fa-circle-plus"></i>
+                          </div>
+        
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="img img4">
+                          <div class="overlay1">
+                            <i class="fa-solid fa-circle-plus"></i>
+                          </div>
+        
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="img img5">
+                          <div class="overlay1">
+                            <i class="fa-solid fa-circle-plus"></i>
+                          </div>
+        
+                        </div>
+                      </div>         
+                    </div>
+                  </div>
+              </div>
+
+              <!-- slider 2.......... -->
+<div class="slider2">
+  <div class="swiper firstswiper">
+    <div class="swiper-wrapper">
+      
+        <div class="swiper-slide">
+          <div class="img img1">
+            <div class="overlay1">
+              <i class="fa-solid fa-circle-plus"></i>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="img img2">
+            <div class="overlay1">
+              <i class="fa-solid fa-circle-plus"></i>
+            </div>
+
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="img img3">
+            <div class="overlay1">
+              <i class="fa-solid fa-circle-plus"></i>
+            </div>
+
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="img img4">
+            <div class="overlay1">
+              <i class="fa-solid fa-circle-plus"></i>
+            </div>
+
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="img img5">
+            <div class="overlay1">
+              <i class="fa-solid fa-circle-plus"></i>
+            </div>
+
+          </div>
+        </div>         
+      </div>
+    </div>
+</div>
+
+
+
+
+<!-- sldier 3............ -->
+
+<div class="slider3 pb-5">
+  <div class="swiper firstswiper">
+    <div class="swiper-wrapper">
+      
+        <div class="swiper-slide">
+          <div class="img img1">
+            <div class="overlay1">
+              <i class="fa-solid fa-circle-plus"></i>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="img img2">
+            <div class="overlay1">
+              <i class="fa-solid fa-circle-plus"></i>
+            </div>
+
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="img img3">
+            <div class="overlay1">
+              <i class="fa-solid fa-circle-plus"></i>
+            </div>
+
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="img img4">
+            <div class="overlay1">
+              <i class="fa-solid fa-circle-plus"></i>
+            </div>
+
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="img img5">
+            <div class="overlay1">
+              <i class="fa-solid fa-circle-plus"></i>
+            </div>
+
+          </div>
+        </div>         
+
+        <div class="swiper-slide">
+          <div class="img img6">
+            <div class="overlay1">
+              <i class="fa-solid fa-circle-plus"></i>
+            </div>
+
+          </div>
+        </div>         
+      </div>
+    </div>
+</div>
+
+
+
+            </section>
+        <!-- section....................................  -->
+
+        <!-- section....................................  -->
+            <section class="padding " style="background-color: #fc5c65;">
+              <div class="container">
+                <div class="text-center padding text-white">
+    
+                  <p class="fw-bold">
+                    TESTIMONIALS
+                  </p>
+                  <img src="images/pendulum icon-02 (00000002).png" alt="" width="100px">
+                  <h1 class="fw-bold px-5">
+                    Ring Us To Boost
+                    Your Brand Awareness
+                  </h1>
+                  <p class="mt-4">We are in love to boost your brand’s success with our successful effort of digital marketing services. We provide complete organic exposure and satisfied successful elements efficiently.</p>
+                  
+                </div>
+        
+                <div class="row">
+                  <div class="col-md-6 text-white mt-5 text-md-start text-center">
+                    <h4 class="fw-bold">Best Decision Ever</h4>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta distinctio, voluptatibus provident laboriosam quasi fugiat amet quod voluptatem ad dignissimos modi nostrum nulla ea culpa voluptates dolorem qui. Velit exercitationem nesciunt minus. Odio harum repudiandae, eveniet eos voluptas culpa voluptate?</p>
+                    <p class="mt-4">
+                      David Johnson
+                    </p>
+                  </div>
+                  <div class="col-md-6 mt-3 mx-md-0 mx-auto text-md-start text-center">
+                    <img src="images/testimo.png" alt="" class="img-fluid">
+                  </div>
+                </div>
+              </div>
+            </section>
+
+        <!-- section....................................  -->
+        
+
+              <!-- footer start.................................  -->
+      <footer class="padding bg-black">
+        <div class="container">
+          <div class="row">
+
+            <div class="col-lg-3 col-md-6 text-lg-start text-center mt-md-0 mt-4">
+              <img src="images/logo.png" alt="" class="img-fluid">
+              <p class="mt-4 text-white">
+                We offer to our clients. From full stack development to just consultancy- you demand, we deliver. From full-stack development to just consultancy-you demand, we deliver. consultancy-you demand, we deliver.
+              </p>
+            </div>
+            
+            <div class="col-lg-3 col-md-6 text-lg-start text-center mt-md-0 mt-4">
+              <p class="fs-4 footer-heading">Logo Design Valley</p>
+              <ul>
+                <li class="py-4"><a href="index.html" style="color: #bd1e2d;">Home</a></li>
+                <li class="py-2"><a href="Insight.html">About Us</a></li>
+                <li class="py-2"><a href="" id="contact">Contact</a></li>
+                <li class="pt-2"><a href="#">Call us at</a></li>
+                <li class="pt-4"><a href="#"><i class="fa-solid fa-phone text-white"></i> <span> +1-234-222-5550</span></a></li>
+              </ul>
+            
+            </div>
+
+            <div class="col-lg-3 col-md-6 text-lg-start text-center mt-md-0 mt-4">
+              <p class="fs-4 footer-heading">Services</p>
+              <ul>
+                <li class="py-4"><a href="logo.html">Logo Design</a></li>
+                <li class="py-2"><a href="website.html">Website Design</a></li>
+                <li class="py-2"><a href="branding.html">Branding</a></li>
+                <li class="pt-4 text-white">Find Us On google Maps</li>
+                <li class="pt-4"><a href=""><i class="fa-solid fa-location-dot"></i> <span> 950 E, TX-114 Suite 161,
+                  Southlake,TX 76092, United States</span></a></li>
+              </ul>
+            
+            </div>
+
+            <div class="col-lg-3 col-md-6 text-lg-start text-center mt-md-0 mt-4">
+              <p class="fs-4 footer-heading">Quick Links</p>
+              <ul>
+                <li class="py-4"><a href="packages.html">Packages</a></li>
+                <li class="py-2"><a href="portfolio.html">Portfolio</a></li>
+                <li class="py-2"><a href="blog.html">Blog</a></li>
+                <li class="pt-4 text-white">Email Us At </li>
+                <li class="pt-4"><a href="#"><i class="fa-solid fa-envelope"></i> <span> info@gmail.com</span></a></li>
+              </ul>
+            
+            </div>
+            
+          </div>
+          <div class="row mt-4">
+            <div class="col-2 text-center my-auto">
+              <img src="images/trustpilot.png" alt=""  class="img-fluid">
+            </div>
+            <div class="col-2 text-center">
+              <img src="images/f-img-05.png" alt=""  class="img-fluid">
+            </div>
+            <div class="col-2 text-center my-auto">
+              <img src="images/designcrowd.png" alt=""  class="img-fluid">
+            </div>
+            <div class="col-2 text-center">
+              <img src="images/f-img-06.png" alt=""  class="img-fluid">
+            </div>
+            <div class="col-2 text-center my-auto">
+              <img src="images/sitejabbaer.png" alt=""  class="img-fluid">
+            </div>
+            <div class="col-2 text-center my-auto">
+              <img src="images/upcity.png" alt=""  class="img-fluid">
+            </div>
+            
+          </div>
+
+          <div class="footer-icons text-center mt-md-0 mt-5">
+            <a href="https://www.facebook.com/mediaproductionart/"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="#"><i class="fa-brands fa-pinterest-p"></i></a>
+          </div>
+          <div class="row mt-3">
+            <div class="col-md-6 text-center text-white">
+              <p>© 2023 Media Production Art. ALL RIGHTS RESERVED.</p>
+            </div>
+            <div class="col-md-6 text-center text-white mt-md-0 mt-4">
+              <a href="">Privacy Policy <span>|</span> Terms of Use</a> 
+            </div>
+          </div>
+        </div>
+      </footer>
+    <!-- footer end.................................  -->
+
+
+
+
+
+
+   <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.slim.min.js" integrity="sha256-kmHvs0B+OpCW5GVHUNjv9rOmY0IvSIRcf7zGUDTDQM8=" crossorigin="anonymous"></script>
+    <script src="js/index.js"></script>
+    <!-- Swiper JS -->
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      slidesPerView: 4,
+      spaceBetween: 30,
+      centeredSlides: true,
+      loop: true,
+      autoplay:true,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+    });
+
+    var swiper = new Swiper(".firstswiper", {
+      slidesPerView: 4,
+      spaceBetween: 0,
+      centeredSlides: false,
+      loop: true,
+      autoplay:true,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+    });
+  </script>
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
+ 
